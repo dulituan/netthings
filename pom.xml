@@ -261,7 +261,7 @@
                     <configuration>
                         <header>${main.dir}/license-header-template.txt</header>
                         <properties>
-                            <owner>The Thingsboard Authors</owner>
+                            <owner>The gsssk.com</owner>
                         </properties>
                         <excludes>
                             <exclude>**/.env</exclude>

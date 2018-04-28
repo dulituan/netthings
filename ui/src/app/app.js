@@ -91,7 +91,7 @@ import AppConfig from './app.config';
 import GlobalInterceptor from './global-interceptor.service';
 import AppRun from './app.run';
 
-angular.module('thingsboard', [
+angular.module('gsssk', [
     ngMaterial,
     ngMdIcons,
     ngCookies,
