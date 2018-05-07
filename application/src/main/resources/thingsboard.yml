@@ -6,15 +6,15 @@ server:
   # Server bind address
   address: "${HTTP_BIND_ADDRESS:0.0.0.0}"
   # Server bind port
-  port: "${HTTP_BIND_PORT:8080}"
+  port: "${HTTP_BIND_PORT:8443}"
   # Server SSL configuration
   ssl:
     # Enable/disable SSL support
-    enabled: "${SSL_ENABLED:false}"
+    enabled: "${SSL_ENABLED:true}"
     # Path to the key store that holds the SSL certificate
-    key-store: "${SSL_KEY_STORE:classpath:keystore/keystore.p12}"
+    key-store: "${SSL_KEY_STORE:/home/leon/keystore.p12}"
     # Password used to access the key store
-    key-store-password: "${SSL_KEY_STORE_PASSWORD:thingsboard}"
+    key-store-password: "${SSL_KEY_STORE_PASSWORD:server_ks_password}"
     # Type of the key store
     key-store-type: "${SSL_KEY_STORE_TYPE:PKCS12}"
     # Alias that identifies the key in the key store
